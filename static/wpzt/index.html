@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <link rel="stylesheet" href="./index.css">
+    <title>51Testing_委培直招合作</title>
+</head>
+<body>
+
+    <div class="main">
+        <div class="header w">
+            <div class="title_first">
+                <p>定向委派、输送测试人才</p>
+                <p>快速组建、扩充测试团队</p>
+            </div>
+            <div class="header_bg">
+                <img src="./img/banner_title.png" alt="title">
+            </div>
+            <div class="label w">
+                <p>解决企业测试人才问题</p>
+            </div>
+            
+        </div>
+        <div class="p1 w">
+            <!-- 软件测试现状 -->
+            <div class="env">
+                <p>中国软件测试现状<br><span>SOFTWARE TESTING STATUS IN CHINA</span></p>
+                <!-- <p class="eng"></p> -->
+            </div>
+            <div class="table w">
+                <div class="char_title w">
+                    <p>发展滞后，人才缺口巨大</p>
+                </div>
+                <div class="chartbar w"></div>
+                <div class="content w">
+                    <p>由于软件测试的重要性是近几年才被充分认识到，因此高校教育和</p>
+                    <p>企业培养都还没有跟上，致使软件测试人才严重供不应求，目前缺</p>
+                    <p>口超过30万，并没有逐年扩大的趋势，成为制约IT产业良性发展的</p>
+                    <p>主要瓶颈之一。</p>
+                </div>
+                <!-- piechart -->
+                <div class="pie_title w">
+                    <p>开发与测试比例严重失衡</p>
+                </div>
+                <div class="piechart w">
+                        
+                    <div class="left">
+                        <img src="./img/p2_left.jpg" alt="">
+                     </div>
+                    <div class="right">
+                        <img src="./img/p2_right.jpg" alt="">
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+                <div class="pie_content w">
+                    <div class="a">
+                        <p>国外著名软件企业的软件测试人员与软件开发人员的比率通常能达到</p>
+                        <p>1：1，并且在实践过程已经证明了这种人员结构的合理性。</p>
+                        <p>在国内，这个比例严重失衡，软件测试人员与软件开发人员的大概在</p><br>
+                        <p> 1：7。</p>
+                    </div>
+                </div>
+                <div class="job">
+                    <div class="white w"><div><p class="no">1</p></div></div>
+                    <div class="zhaopin w">
+                        <p>国内企业测试人才招聘现状<br><span>DOMESTIC COMPANIES RECRUITMENT STATUS QUO</span></p>
+                    </div>
+                    <div class="lack w">
+                        <div class="content_bg w">
+                                <div class="img w">
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cor">
+                    <div class="cor_bg w">
+                        <p class="p_t">51Testing委培直招合作</p> 
+                        <p class="span">专为企业培养、输送专属人才</p>
+                        <div class="content_c">
+                            <p>企业客户委托51Testing定向培养、输送具备核心测试技能和相</p> 
+                            <p>关行业经验的专属人才，51Testing通过对广大往、应届毕业生</p> 
+                            <p>进行数月的软件测试强化培训，能够使学员具备合格的软件测试</p>
+                            <p>设计和执行能力。输送至企业后能够快速上手工作，满足企业用</p>
+                            <p>人需求。</p>
+                            
+                        </div>
+                     </div>
+                </div>
+                <div class="success">
+                    <div class="white w">
+                        <div class="light">
+                            <div class="img"></div>
+                        </div>
+                    </div>
+                    <div class="s_title w">
+                        <p>合作成功案例<br><span>SUCCESSFUL CASES</span></p>
+                    </div>
+                    <div class="brand w">
+                    </div>
+                </div>
+                
+                <div class="footer">
+                    
+                    <div class="footer_bg">
+                        <a class="contact" href="tel:4008880051">全国报名、咨询统一电话：400-888-0051</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+    
+    <script>
+            // 1rem = 100px     
+    function setRem() {
+        var rate = 100/750; 
+        var width = document.documentElement.clientWidth;  //获取浏览器可视区域宽
+        console.log(width);
+        if(width > 1400) {
+            width = 750;
+        }
+        document.querySelector('html').style.fontSize = width * rate + 'px';
+        }
+        setRem();
+        window.onresize = function () {
+            setRem();
+        }
+    
+        </script>
+    
+</body>
+

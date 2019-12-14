@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>51Testing_委培直招合作</title>
+</head>
+
+<body>
+    <script>
+        // 1rem = 100px     
+        function setRem() {
+            var rate = 100 / 750;
+            var width = document.documentElement.clientWidth;  //获取浏览器可视区域宽
+            console.log(width);
+            if (width > 1400) {
+                width = 750;
+            }
+            document.querySelector('html').style.fontSize = width * rate + 'px';
+        }
+        setRem();
+        window.onresize = function () {
+            setRem();
+        }
+
+    </script>
+
+
+    <div class="main">
+        <div class="header">
+            <div class="header_bg w">
+                <div class="banner">
+                    <img src="./img/banner.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="p1">
+                <div class="title">
+                    <P><span class="left    "><img src="./img/title_left.png" alt=""></span>
+                        什么是测试开发工程师？
+                        <span class="right"><img src="./img/title_right.png" alt=""></span>
+                    </P>
+                </div>
+                <div class="pic">
+                    <div class="one w"><img src="./img/p1_1.png" alt=""></div>
+                    <div class="two w"><img src="./img/p1_2.png" alt=""></div>
+
+                </div>
+            </div>
+
+            <div class="green">
+                <div class="p2">
+                    <div class="title">
+                        <P class="p2_title"><span class="left"><img src="./img/title_left.png" alt=""></span>
+                            测试开发工程师的重要性
+                            <span class="right"><img src="./img/title_right.png" alt=""></span>
+                        </P>
+                    </div>
+                    <div class="content">
+                        <div class="content_left">
+                            <div class="title">
+                                <img src="./img/titile1_l.png" alt="">
+                            </div>
+                            <div class="text">
+                                <p>IT互联网产业的竞争</p>
+                                <p>越来越激烈，对软件</p>
+                                <p>产品研发效率的要求</p>
+                                <p>也越来越高，敏捷开</p>
+                                <p>发、Devops等各种</p>
+                                <p>思潮正在冲击整个软</p>
+                                <p>件行业，市场对于高</p>
+                                <p>端测试人才的需求正</p>
+                                <p>逐步加大。</p>
+                            </div>
+                        </div>
+                        <div class="content_right">
+                            <div class="title">
+                                <img src="./img/titile1_r.png" alt="">
+                            </div>
+                            <div class="text">
+                                <p>很多知名IT互联网企</p>
+                                <p>业在招聘中高端测试</p>
+                                <p>岗位时，通常会要求</p>
+                                <p>具备以下能力：熟悉</p>
+                                <p>自动化测试和接口测</p>
+                                <p>试的同时，还能够辅</p>
+                                <p>助开发测试框架和工</p>
+                                <p>具。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p3">
+                    <div class="title">
+                        <P class="p3_title">
+                            <span class="left"><img src="./img/title_left.png" alt=""></span>
+                            测试开发工程师的薪资待遇
+                            <span class="right"><img src="./img/title_right.png" alt=""></span>
+                        </P>
+                        <p class="children">
+                            数据来源：智联招聘
+                        </p>
+                    </div>
+                    <div class="salary">
+                        <div class="pic"><img src="./img/p3_1.jpg" alt=""></div>
+                        <div class="pic"><img src="./img/p3_2.jpg" alt=""></div>
+                        <div class="pic"><img src="./img/p3_3.jpg" alt=""></div>
+
+                    </div>
+                </div>
+                <div class="p4">
+                    <div class="title">
+                        <P class="p4_title">
+                            为什么要选择<br>
+                            <span class="left"><img src="./img/title_left.png" alt=""></span>
+                            51Testing【测试开发高级实战班】
+                            <span class="right" style="margin-left:-0.2rem"><img src="./img/title_right.png"
+                                    alt=""></span>
+                        </P>
+                    </div>
+                    <div class="context">
+                        <div class="why">
+                            <div class="left">
+                                <div class="imageA"></div>
+                                <div class="label">
+                                    <p>学习优势</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <p>164小时以上录播课程+每周1次直播课程（每次直播1小时以上，主题涉及人工智能、爬虫、大数据等测试新技术核心方向，拓展学员知识面，提升职场竞争力）</p>
+                            </div>
+                        </div>
+                        <div class="why">
+                            <div class="left">
+                                <div class="imageB"></div>
+                                <div class="label">
+                                    <p>课程优势</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <p>包含两大测试方向（自动化测试、接口测试）、2大主流编程语言（python、Java），覆盖3大自动化模块（UI WEB自动化、UI APP自动化、接口自动化）</p>
+                            </div>
+                        </div>
+                        <div class="why">
+                            <div class="left">
+                                <div class="imageC"></div>
+                                <div class="label">
+                                    <p>教学优势</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <p>每天一小时学习任务，班主任实施监督学院学习；全天侯平台互动，老师及时响应学员“疑难杂症”；专属配套习题，老师1对1批阅、指导，评估学习效果</p>
+                            </div>
+                        </div>
+                        <div class="why">
+                            <div class="left">
+                                <div class="imageD"></div>
+                                <div class="label">
+                                    <p>师资优势</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <p>讲师均具备7~12年以上工作经验，均有过BAT等名企任职经理，均担任过资深测试架构师、高级开发、项目经理乃至测试总监</p>
+                            </div>
+                        </div>
+                        <div class="why">
+                            <div class="left">
+                                <div class="imageE"></div>
+                                <div class="label">
+                                    <p>就业优势</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <p><br> 条件合格者可以签订就业保障协议</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p5">
+                    <div class="title">
+                        <p class="a">阶段式课程体系</p>
+                        <p class="b">稳步拉升你的就业竞争力</p>
+                    </div>
+                    <div class="stuff">
+                        <p>Web前端</p>
+                        <p>Android基础</p>
+                        <p>Python</p>
+                        <p>Selenium-Python</p>
+                        <p>Appium-Python</p>
+                        <p>Java</p>
+                        <p>Selenium-Java</p>
+                        <p>Appium-Java</p>
+                        <p>接口测试</p>
+                        <p>集成测试</p>
+                        <p>自动化测试框架</p>
+                    </div>
+
+                </div>
+                <div class="p6">
+                    <div class="title">
+                        <P><span class="left    "><img src="./img/title_left.png" alt=""></span>
+                            什么是测试开发工程师？
+                            <span class="right" style="margin-left:-0.2rem"><img src="./img/title_right.png"
+                                    alt=""></span>
+                        </P>
+                    </div>
+                    <div class="teachers w">
+                        <div class="a">
+                            <div class="left">
+                                <div class="imageA"></div>
+                                <div class="label">
+                                    <p>高级讲师<br>周老师</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <p>北京邮电大学硕士毕业，曾供职于大唐移动，担任测试经理，后加入51Testing，工作内容覆盖培训、咨询、测试工具研发、项目管理、技术支持等内容，在软件测试领域积累了丰富的项目经验、管理经验和培训经验。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="b">
+                            <div class="left">
+                                <div class="imageC"></div>
+                                <div class="label">
+                                    <p>高级讲师<br>周老师</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <p>12年以上软件测试工作经验，国内软件测试先驱，具备丰富的测试、配置管理、SQA、测试管理与项目管理经验。擅长软件需求分析、测试用例设计、测试数据度量、测试标准与流程制定及自动化项目构建。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="a">
+                            <div class="left">
+                                <div class="imageB"></div>
+                                <div class="label">
+                                    <p>高级讲师<br>丁老师</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <p style="margin-top:0.05rem">
+                                    上海交通大学本科毕业，16年以上的软件测试行业从业经验，软件质量检验高级工程师。在软件测试培训行业亦有多年的测试培训主管经历，对授课技巧和学生心里把握上皆有丰富的经验。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="b">
+                            <div class="left">
+                                <div class="imageD"></div>
+                                <div class="label">
+                                    <p>高级讲师<br>陆老师</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <p>具有10多年软件开发、测试和管理经验。IPMP&nbsp&nbspC级项目管理师，内审员，熟悉多种开发工具和自动化测试工具，对产品开发与测试的方法和管理流程有较深刻的认识。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a onclick="window.parent.doyoo.util.openChat('g=10063915');return false;" style="cursor:pointer;">
+                        <p class="btn w">查看更多授课师资</p>
+                    </a>
+                </div>
+                <div class="p7">
+                    <div class="title">
+                        <P>即刻上车，立马加速<br>51Testing助你挑战年薪30万+高阶课程</P>
+                    </div>
+                    <div class="first">
+                        <div class="post">
+                            <div class="small_title">
+                                <p>机构实力强</p>
+                            </div>
+                            <div class="small_content">
+                                <p>高新技术企业<br>高新技能培训基地</p>
+                            </div>
+                        </div>
+
+
+                        <div class="post">
+                            <div class="small_title">
+                                <p>培训经验深</p>
+                            </div>
+                            <div class="small_content">
+                                <p>专注软件测试就业<br>培训十五年</p>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="small_title">
+                                <p>课程体系新</p>
+                            </div>
+                            <div class="small_content">
+                                <p>人工智能/大数据<br>/APP尽在其中</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="first">
+                        <div class="post">
+                            <div class="small_title">
+                                <p>师资力量赞</p>
+                            </div>
+                            <div class="small_content">
+                                <p>总裁/总监级资深大<br>咖领衔授课</p>
+                            </div>
+                        </div>
+
+
+                        <div class="post">
+                            <div class="small_title">
+                                <p>兄弟姐妹多</p>
+                            </div>
+                            <div class="small_content">
+                                <p>40000+毕业学员<br>占据国内测试领域<br>半壁江山</p>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="small_title">
+                                <p>合作企业牛</p>
+                            </div>
+                            <div class="small_content">
+                                <p>为HP、腾讯、阿里<br>等跨国公司培养了<br>上百个测试团队</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="p8">
+                    <div class="title">
+                        <P>51Testing测试开发精英班主要针对人群</P>
+                    </div>
+                    <div class="label_8">
+                        <div class="item">
+                            <div class="iconA"></div>
+                            <div class="text">希望掌握测试开发技能、提高自动化和接口测试能力的在职测试人员</div>
+                        </div>
+                        <div class="item">
+                            <div class="iconB"></div>
+                            <div class="text">在理工科背景、有扎实软件测试基础、并希望继续深造的求学人员</div>
+                        </div>
+                        <div class="item">
+                            <div class="iconC"></div>
+                            <div class="text">希望迅速提高测试团体实力，培养高端测试开发人才的企业用户</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p9">
+                    <p class="small">加入51Testing</p>
+                    <p class="small">【测试开发高级实战班】</p>
+                    <p class="big">薪资更高！晋升更快！发展更好</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

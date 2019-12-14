@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./index.css">
+
+    <title>团队内训</title>
+</head>
+
+<body>
+    <script>
+        // 1rem = 100px     
+        function setRem() {
+            var rate = 100 / 750;
+            var width = document.documentElement.clientWidth;  //获取浏览器可视区域宽
+            console.log(width);
+            if (width > 1400) {
+                width = 750;
+            }
+            document.querySelector('html').style.fontSize = width * rate + 'px';
+        }
+        setRem();
+        window.onresize = function () {
+            setRem();
+        }
+
+    </script>
+    <div class="main">
+        <div class="header w">
+            <img src="./img/banner.png" alt="">
+        </div>
+
+        <div class="mid">
+            <div class="p1 w">
+                <div class="p1_title"></div>
+                <div class="content">
+                    <div class="text">
+                        <p class="t">51Testing资深讲师团队走进企业，根据业务及团队实际需求，量身打造专属个性化培训课程，“专药专治”，有效提升测试团队战斗力。</p>
+                        <p class="btn">10人以上即可开班，时间灵活</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="p2">
+                <div class="p2_title"></div>
+                <div id="nav" class="swiper-container">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide active-nav"><a href="javascript:;">测试基础类</a>
+                            <div class="b" href="javascript:;" class="b"></div>
+                        </li>
+                        <li class="swiper-slide"><a href="javascript:;">测试设计类</a>
+                            <div class="b" href="javascript:;" class="b"></div>
+                        </li>
+                        <li class="swiper-slide"><a href="javascript:;">代码质量测试类</a>
+                            <div class="b" href="javascript:;" class="b" style="width:1.55rem"></div>
+                        </li>
+                        <li class="swiper-slide" style="margin-left:0.4rem"><a href="javascript:;">系统测试类</a>
+                            <div class="b" href="javascript:;" class="b"></div>
+                        </li>
+                        <li class="swiper-slide"><a href="javascript:;">测试度量类</a>
+                            <div class="b" href="javascript:;" class="b"></div>
+                        </li>
+                        <li class="swiper-slide"><a href="javascript:;">测试管理类</a>
+                            <div class="b" href="javascript:;" class="b"></div>
+                        </li>
+                        <li class="swiper-slide"><a href="javascript:;">专项测试</a>
+                            <div class="b" href="javascript:;" class="b" style="width:0.9rem"></div>
+                        </li>
+                        <li class="swiper-slide" style="margin-left:-0.3rem"><a href="javascript:;">测试开发类</a>
+                            <div class="b" href="javascript:;" class="b"></div>
+                        </li>
+                        <li class="swiper-slide"><a href="javascript:;">认证考试</a>
+                            <div class="b" href="javascript:;" class="b" style="width:0.9rem"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="page" class="swiper-container" id="page">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slidepage">
+                            <div class="a">
+                                <div class="left">
+                                    <p>软件工程、质量和测试基础<span>2天</span></p>
+                                    <p>需求开发、管理工程<span>1天</span></p>
+                                    <p>ISTQB初级（测试工程师）<span>2天</span></p>
+                                    <p>ISTQB高级（测试经理）<span>2天</span></p>
+                                    <p>测试技术（通用课程）<span>3天</span></p>
+                                </div>
+                                <div class="right">
+                                    <p>测试工程师、开发工程师、<br>测试经理、开发经理、<br>需求分析工程师、QA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slidepage">
+                            <div class="c">
+                                <div class="left">
+                                    <p>软件测试需求分析与系统用例<br>设计<span style="margin-top:-0.1rem">2天</span></p>
+                                    <p>ISTQB高级（测试分析师）<span>2天</span></p>
+                                    <p>ISTQB高级（测试技术分析师）<span>2天</span></p>
+                                    <p>单元、集成测试方法<span>2天</span></p>
+
+                                </div>
+                                <div class="right">
+                                    <p>测试工程师、开发工程师、<br>测试经理、开发经理、<br>QA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slidepage">
+                            <div class="d">
+                                <div class="left" style="padding-top:1rem">
+                                    <p>单元自动化培训(C/C++或Java)<span>1~2天</span></p>
+                                    <p>持续集成测试自动化培训<br>（Jekins） <span style="margin-top:-0.2rem">1~2天</span></p>
+                                </div>
+                                <div class="right" style="padding-top:0.4rem">
+                                    <p>测试工程师、开发工程师、<br>测试经理、开发经理、<br>QA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slidepage">
+                            <div class="e">
+                                <div class="left">
+                                    <p>自动化测试培训<span>2天</span></p>
+                                    <p>性能测试培训<span>2天</span></p>
+                                    <p>移动测试工具和自动化<span>2天</span></p>
+                                    <p>接口测试自动化<span>2天</span></p>
+                                    <p>嵌入式软件测试自动化<span>2天</span></p>
+                                </div>
+                                <div class="right">
+                                    <p>自动化测试工程师、<br>开发工程师、<br>技术测试负责人、开发经理</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slidepage">
+                            <div class="f">
+                                <div class="left" style="padding-top:0.9rem">
+                                    <p>软件缺陷分析治疗分析、<br>控制和预测方法 <span style="margin-top:-0.15rem">2天</span></p>
+                                    <p>软件质量度量和缺陷分析方法<span>1天</span></p>
+                                </div>
+                                <div class="right" style="padding-top:0.3rem">
+                                    <p>测试工程师、开发工程师、<br>测试经理、开发经理、<br>QA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slidepage">
+                            <div class="g">
+                                <div class="left" style="padding-top:0.7rem">
+                                    <p>敏捷项目管理<span>2天</span></p>
+                                    <p>软件项目量化管理<span>2天</span></p>
+                                    <p>软件测试管理培训<span>2天</span></p>
+                                    <p>软件配置管理<span style="padding-left:0.09rem">1~2天</span></p>
+
+                                </div>
+                                <div class="right">
+                                    <p>测试工程师、开发工程师、<br>测试经理、开发经理、<br>QA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slidepage">
+                            <div class="h">
+                                <div class="left">
+                                    <p style="margin-top:0.2rem">B/S系统安全性测试<span>2天</span></p>
+                                    <p>App系统安全性测试<span>2天</span></p>
+                                    <p style="margin-top:0.2rem">银行系统业务需求分析和用<br>例设计最佳实践<span style="margin-top:-0.2rem">2天</span></p>
+                                    <p style="margin-top:0.2rem">只能产品业务需求分析和用<br>例设计最佳实践<span style="margin-top:-0.2rem" >2天</span></p>
+                                    <p style="margin-top:0.2rem">移动应用业务需求分析和用<br>例设计最佳实践<span style="margin-top:-0.2rem">2天</span></p>
+                                    <p>TDD、BDD、ATDD测试<br>最佳实践<span style="margin-top:-0.2rem">2天</span></p>
+                            
+
+                                </div>
+                                <div class="right">
+                                    <p style="margin-top:0.1rem">测试工程师、开发工程师、测试经理、开发经理</p>
+                                    <p style="margin-top:0.3rem">手机测试工程师、手机开发工程师、测试经理、开发经理</p>
+                                    <p style="margin-top:0.15rem">嵌入式测试工程师、嵌入式开发工程师</p>
+                                    <p style="margin-top:0.4rem">测试工程师、开发工程师、测试经理、开发经理</p>
+                               
+                                   
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="swiper-slide slidepage">
+                            <div class="i">
+                                <div class="left" style="padding-top:0.9rem">
+                                    <p>LoadRunner虚拟用户高级开发<span>2天</span></p>
+                                    <p>python开发实战<span>2天</span></p>
+                                    <p>金融行业分布式服务接口测试<br>项目实战<span style="margin-top:-0.2rem">2天</span></p>
+                                </div>
+                                <div class="right">
+                                    <p>测试工程师、开发工程师</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slidepage">
+                            <div class="j">
+                                <div class="left" style="padding-top:1rem">
+                                    <p>信息系统项目管理师<span>1天</span></p>
+                                    <p>ISTQB认证<span>2天</span></p>
+                                    <p>TMMI认证<span>2天</span></p>
+
+                                </div>
+                                <div class="right">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p3">
+                <div class="p3_title"></div>
+                <div class="teachers">
+                    <div class="swiper-container_teacher w">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="tech1">
+                                    <img src="./img/tea1.png" alt="">
+                                    <div class="name">
+                                        <p>周老师 <span>教学总监</span></p>
+                                    </div>
+                                    <div class="introduction">北京邮电大学通信<br>工程硕士，12年软<br>件测试从业经验,<br>CSTQB注册讲师</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tech1">
+                                    <img src="./img/tea2.png" alt="">
+                                    <div class="name">
+                                        <p>胡老师 资深讲师</p>
+                                    </div>
+                                    <div class="introduction">曾任职东南融通等<br>公司。多年测试经<br>理经验，擅长网络<br>通信和电商行业</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tech1">
+                                    <img src="./img/tea3.png" alt="">
+                                    <div class="name">
+                                        <p>张老师 资深讲师</p>
+                                    </div>
+                                    <div class="introduction">河南大学计算机硕<br>士，精通自动化测<br>试以及Linux等系<br>统</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tech1">
+                                    <img src="./img/tea4.png" alt="">
+                                    <div class="name">
+                                        <p>宋老师 资深讲师</p>
+                                    </div>
+                                    <div class="introduction">七年软件测试从业经验，擅长需求分析及用例设计，曾参与中国移动等项目。</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tech1">
+                                    <img src="./img/tea6.png" alt="">
+                                    <div class="name">
+                                        <p>陆老师 资深讲师</p>
+                                    </div>
+                                    <div class="introduction">曾为亚信联创上海分公司测试负责人ISO9000内审员，获IPMP C级证书。</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tech1">
+                                    <img src="./img/tea5.png" alt="">
+                                    <div class="name">
+                                        <p>史老师 资深讲师</p>
+                                    </div>
+                                    <div class="introduction">九年软件测试从业经验，性能测试专家，曾在海同科技等担任测试主管。</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="p4">
+                <div class="p4_title"></div>
+                <div class="content">
+                    <div class="one">
+                        <p class="a">为企业内训学员提供<br>一年期的在线答疑服务</p>
+                    </div>
+                    <div class="two">
+                        <p class="b">定期为企业发送测试相关<br>技术资料和业界动态</p>
+                    </div>
+                    <div class="three">
+                        <p class="c">为企业提供人才招聘服务<br>推荐优秀的软件测试人才</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p5">
+                <div class="p5_title"></div>
+                <div class="image">
+                    <img src="./img/p5_logo.png" alt="">
+                </div>
+
+                <a href="http://baidu.com" class="btn">招生问答</a>
+
+            </div>
+            <div class="p6">
+                <div class="menu_tab">
+                    <ul class="uu">
+                        <li class="uuu">
+                            <label class="tab selected">
+                                <div class="image"><img src="./img/q.png" alt=""></div>
+                                <p class="title_5">
+                                    软件测试内训多少学员可开班？
+                                </p>
+                            </label>
+                            <div class="tab_content">
+                                <div class="imageA"><img src="./img/a.png" alt=""></div>
+                                <p class="p_c">10人以上开班，最好在20人以下，这样51Testing可以保证培训质量，进行一对一辅导。</p>
+                            </div>
+                        </li>
+                        <li class="uuu">
+                            <label class="tab selected">
+                                <div class="image"><img src="./img/q.png" alt=""></div>
+                                <p class="title_5">
+                                    培训的价格是如何制定的？
+                                </p>
+                            </label>
+                            <div class="tab_content">
+                                <div class="imageA"><img src="./img/a.png" alt=""></div>
+                                <p class="p_c">51Testing的企业内训价格主要由三个方面决定：课程长度、课程定制的程度和参加的人数。</p>
+                            </div>
+                        </li>
+                        <li class="uuu">
+                            <label class="tab selected">
+
+                                <div class="image"><img src="./img/q.png" alt=""></div>
+                                <p class="title_5">
+                                    51Testing企业内训的优势是什么？
+                                </p>
+                            </label>
+                            <div class="tab_content">
+                                <div class="imageA"><img src="./img/a.png" alt=""></div>
+                                <p class="p_c">51Testing企业内训有以下优势： 第一，
+                                    针对性强，课程定制——为您提供最优的测试解决方案，节约测试成本。根据企业的具体情况，我们提供量体裁衣式的培训方案。传授学员以最适合企业实际测试需求的测试解决方法，提供开源和免费的测试解决方案，节约企业今后测试方面的实际成本。
+                                    第二， 师资力量强，课程过硬——保证培训的质量。
+                                    我们的老师都是资深的软件测试人士，多年在CMM5级企业任职，具备丰富的软件测试经验和培训经验。而且，我们的培训课程都是专职老师耗时两年倾力打造，教学效果突出。 </p>
+                            </div>
+                        </li>
+                        <li class="uuu">
+                            <label class="tab selected">
+
+                                <div class="image"><img src="./img/q.png" alt=""></div>
+                                <p class="title_5">
+                                    企业内训有哪些售后服务？
+                                </p>
+                            </label>
+                            <div class="tab_content">
+                                <div class="imageA"><img src="./img/a.png" alt=""></div>
+                                <p class="p_c">51Testing企业内训有如下售后服务：<br>
+                                    第一、授课结束后，51Testing将为每位参训学员提供一年期的免费在线答疑服务，帮助学员解决工作中实际遇到的技术难题，促使企业内训达到预期效果。
+                                    第二、定期为企业发布测试相关技术资料和业界动态。 第三、为企业提供免费的人才招聘服务，企业可以点击登录>><a
+                                        href="http://bbs.51testing.com/forum-63-1.html">http://bbs.51testing.com/forum-63-1.html</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="uuu">
+                            <label class="tab selected">
+                                <div class="image"><img src="./img/q.png" alt=""></div>
+                                <p class="title_5">
+                                    培训结束后是否会颁发培训证书？
+                                </p>
+                            </label>
+                            <div class="tab_content">
+                                <div class="imageA"><img src="./img/a.png" alt=""></div>
+                                <p class="p_c">每位参加过51Testing企业内训的学员都可以得到培训证书。</p>
+                            </div>
+                        </li>
+
+                        <li class="uuu">
+                            <label class="tab selected">
+
+                                <div class="image"><img src="./img/q.png" alt=""></div>
+                                <p class="title_5">
+                                    培训的地点在哪里？
+                                </p>
+                            </label>
+                            <div class="tab_content">
+                                <div class="imageA"><img src="./img/a.png" alt=""></div>
+                                <p class="p_c">51Testing的企业内训服务针对全国范围，培训地点由企业指定。</p>
+                            </div>
+                        </li>
+                        <li class="uuu">
+                            <label class="tab selected">
+                                <div class="image"><img src="./img/q.png" alt=""></div>
+                                <p class="title_5">
+                                    考试时间和培训时间是如何安排的？
+                                </p>
+                            </label>
+                            <div class="tab_content">
+                                <div class="imageA"><img src="./img/a.png" alt=""></div>
+                                <p class="p_c">51Testing提供基础级、高级线上培训，可随报随学；同时支持线下面授培训以及企业内训，开班计划详询教务。</p>
+                            </div>
+                        </li>
+
+                        <li class="uuu">
+                            <label class="tab selected">
+                                <div class="image"><img src="./img/q.png" alt=""></div>
+                                <p class="title_5">
+                                    51Testing培训过哪些行业的客户？
+                                </p>
+                            </label>
+                            <div class="tab_content">
+                                <div class="imageA"><img src="./img/a.png" alt=""></div>
+                                <p class="p_c">
+                                    51Testing培训过的客户包括：通讯行业客户、IT解决方案提供商、应用软件客户、消费量电子产品和集成电路客户、网站以及无线增值服务客户、工业自动化产品客户、金融行业客户、软件外包客户、以及其他各行各业客户超过2000家。
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <a href="http://baidu.com">
+                    <img src="./img/bottom.png" alt="">
+                </a>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+<script type="text/javascript" src="./swip.js"></script>
+<script>
+    $(function () {
+        $('.menu_tab').find('ul li:first-child').children('.tab_content').show();
+        $(".menu_tab > ul > li").on("click", "label", function () {
+
+            $(this).toggleClass('selected').next('.tab_content').slideToggle(500);
+            $(this).parent().siblings().children('.tab_content').slideUp(500);
+            $(this).parent().siblings().children('label').removeClass('selected');
+
+
+        });
+    });
+</script>
+
+</html>

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <link rel="stylesheet" href="./index.css">
+  
+    <title>就业培训班</title>
+</head>
+<body>
+    <script>
+            // 1rem = 100px     
+    function setRem() {
+        var rate = 100/750; 
+        var width = document.documentElement.clientWidth;  //获取浏览器可视区域宽
+        console.log(width);
+        if(width > 1400) {
+            width = 750;
+        }
+        document.querySelector('html').style.fontSize = width * rate + 'px';
+        }
+        setRem();
+        window.onresize = function () {
+            setRem();
+        }
+    
+    </script>
+    <div class="main">
+        <div class="header">
+            <div class="swiper-container w">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/banner.png" ></div>
+                    <div class="swiper-slide"><img src="./img/banner.png" ></div>
+                </div>
+                <div class="swiper-pagination">123</div> 
+            </div>	
+        </div>
+        <div class="mid">
+            <div class="p1">
+                <div class="left">
+                    <div class="title">在欧美等软件发达国家，平均1个“程序猿”至少标配1个“测试喵”</div>
+                    <div class="image"><img src="./img/p1_left.png" alt=""></div>
+                </div>
+                <div class="right">
+                    <div class="title">在中国软件开发人员和软件测试人员的比例确实7：1</div>
+                    <div class="image"><img src="./img/p1_rigth.png" alt=""></div>
+                </div>
+            </div>
+            <div class="p2">
+                <p class="sum">不难看出，国内的开发人员和测试人员数量比正在逐年减小，但和欧美相比，依然存在较大差距，对于测试人才的需求量还将逐年攀升。</p>
+                <div class="chart">
+                    <div class="title"><p class="describe">在北上广深，“测试喵”属于紧缺型岗位</p></div>
+                    <div class="a">
+                        <p>在一二线城市，“测试喵”处于高薪C位</p>
+                        <img src="./img/p3_1.png" alt="">
+                        
+                    </div>
+                    <div class="b">
+                        <img  src="./img/p3_2.png" alt="">   
+                    </div>
+                    <div class="btn">
+                            <p><a href="http://www.baidu.com">点击更多 职业详情</a></p>
+                    </div>
+                </div> 
+               
+            </div>
+            <div class="p3">
+                <div class="title">
+                        <P><span class="left"><img src="./img/title_style.png" alt=""></span> 
+                            什么人，适合学习软件测试
+                            <span class="right"><img src="./img/title_style.png" alt=""></span> 
+                        </P>
+                </div>
+                <div class="post">
+                    <div class="left">
+                        <div class="imageA"></div>
+                        <div class="label"><p>基础</p></div>
+                    </div>
+                    <div class="right">
+                        <p class="blue">没有编程基础，想要进入IT等技术领域</p>
+                        <p class="black">相对其他IT培训课程，软件测试对于编程学习<br>无硬性要求</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="left">
+                        <div class="imageB"></div>
+                        <div class="label"><p>专业</p></div>
+                    </div>
+                    <div class="right">
+                        <p class="blue">没有专业背景，想要进入AI等热门行业</p>
+                        <p class="black">各行各业都需要软件测试，包括大数据、人工智能等新兴行业</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="left">
+                        <div class="imageC"></div>
+                        <div class="label"><p>学历</p></div>
+                    </div>
+                    <div class="right">
+                        <p class="blue">没有名校加分，想要快速获得升职加薪</p>
+                        <p class="black">只要测试技术过硬，哪怕非名校毕业/专科学历，<br>一样飞黄腾达</p>
+                </div>
+                </div>
+                <div class="post">
+                    <div class="left">
+                        <div class="imageD"></div>
+                        <div class="label"><p>性别</p></div>
+                    </div>
+                    <div class="right">
+                        <p class="blue">没有名校加分，想要快速获得升职加薪</p>
+                        <p class="black">只要测试技术过硬，哪怕非名校毕业/专科学历，<br>一样飞黄腾达</p>
+                </div>
+                </div>
+                <div class="post">
+                        <div class="left">
+                            <div class="imageE"></div>
+                            <div class="label"><p>年龄</p></div>
+                        </div>
+                        <div class="right">
+                            <p class="blue">不想吃青春饭，想要追求稳定的铁饭碗</p>
+                            <p class="black">软件测试是一个比较稳定的职业，经验值越高，<br>用人企业越青睐</p>
+                        </div>
+                </div>
+                <div class="btn">
+                        <p><a href="http://www.baidu.com">免费咨询 专业解答</a></p>
+                </div>
+            </div>
+            <div class="p4">
+                <div class="title">
+                        <P><span class="left"><img src="./img/title_style.png" alt=""></span> 
+                            <!-- 全栈式课程体系，全方位提升技能 -->
+                            学软件测试，为什么要去51Testing？
+                            <span class="right" style="margin-left:-0.14rem"><img src="./img/title_style.png" alt=""></span> 
+                        </P>
+                </div>
+                <div class="board">
+                    <div class="a">
+                        <div class="pic"></div>
+                        <div class="title_5"><p>公信力</p></div>
+                        <div class="content_5">高新技术企业<br>+CMM14级国际<br>权威认证企业</div>
+                    </div>
+                    <div class="b">
+                        <div class="pic"></div>
+                        <div class="title_5"><p>影响力</p></div>
+                        <div class="content_5">4000+毕业学<br>员就职于7000+<br>国内外公司</div>
+                    </div>
+                    <div class="c">
+                        <div class="pic"></div>
+                        <div class="title_5"><p>就业率</p></div>
+                        <div class="content_5">学员就业率长<br>期保持在99%<br>以上</div>    
+                    </div>
+                    <div class="d">
+                        <div class="pic"></div>
+                        <div class="title_5"><p>经验值</p></div>
+                        <div class="content_5">专注软件测试<br>职业培训和技<br>术服务15年</div> 
+                    </div>
+                </div>
+                <div class="btn">
+                        <p><a href="http://www.baidu.com">点击更多 机构详情</a></p>
+                </div>
+            </div>
+            <div class="p5">
+                <div class="title">
+                        <P><span class="left"><img src="./img/title_style.png" alt=""></span> 
+                            全栈式课程体系，全方位提升技能
+                            <span class="right"><img src="./img/title_style.png" alt=""></span> 
+                        </P>
+                </div> 
+                <div class="small_title"><p>一直被抄袭，从未被超越</p></div>    
+                <div class="first">
+                        <img src="./img/p6_1.png" alt="">
+                       
+                </div>
+                    <div class="second">
+                            <img src="./img/p6_2.png" alt="">
+                           
+                </div>
+                    <div class="third">
+                            <img src="./img/p6_3.png" alt="">
+                            
+                </div>  
+                <div class="btn">
+                        <p><a href="http://www.baidu.com">点击更多 职业详情</a></p>
+                </div>        
+            </div>
+            <div class="p6">
+                <div class="title">
+                        <P><span class="left"><img src="./img/title_style.png" alt=""></span> 
+                            线下面授+线上反复学习+学习进度可视化
+                            <span class="right"><img src="./img/title_style.png" alt=""></span> 
+                        </P>
+                </div> 
+                <div class="small_title"><p>超级TMS系统，学到“爆表”</p></div>
+                <div class="content">
+                    <div class="func">
+                        <div class="imageA">
+                            <img src="./img/p7_i_1.png" alt="">
+                        </div>
+                        <div class="function">
+                            <p class="gongneng">功能1</p>
+                            <p class="desc">人机交互学习，<br>智能直击学员的学习薄弱环节</p>
+                        </div>
+                        <div class="benifit">
+                            <p>提升成本</p>
+                        </div>
+                    </div>
+                    <div class="func">
+                            <div class="imageB">
+                                <img src="./img/p7_i_2.png" alt="">
+                            </div>
+                            <div class="function" style="margin-top:-0.1rem;margin-left: 0.25rem">
+                                <p class="gongneng">功能2</p>
+                                <p class="desc">大数据匹配企业最新<br>岗位需求所用到的知识点</p>
+                            </div>
+                            <div class="benifit" style="margin-top:0.3rem">
+                                <p>学以致用</p>
+                            </div>
+                    </div>
+                    <div class="funcC">
+                            <div class="imageC">
+                                <img src="./img/p7_i_3.png" alt="">
+                            </div>
+                            <div class="function">
+                                <p class="gongneng">功能3</p>
+                                <p class="desc">搭载人工智能题库，<br>将课程的知识点进行拆解</p>
+                            </div>
+                            <div class="benifit">
+                                <p>更好吸收</p>
+                            </div>
+                    </div>
+                    <div class="funcD">
+                            <div class="imageD">
+                                <img src="./img/p7_i_4.png" alt="">
+                            </div>
+                            <div class="function">
+                                <p class="gongneng">功能4</p>
+                                <p class="desc">学员从入学到就业的<br>各项情况都录入系统存档</p>
+                            </div>
+                            <div class="benifit">
+                                <p>一目了然</p>
+                            </div>
+                    </div>
+                    <div class="funcE">
+                            <div class="imageE">
+                                <img src="./img/p7_i_5.png" alt="">
+                            </div>
+                            <div class="function">
+                                <p class="gongneng">功能5</p>
+                                <p class="desc">全程监督老师的各项工作<br>解决教学就业问题</p>
+                            </div>
+                            <div class="benifit">
+                                <p>及时有效</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p7">
+                <div class="title">
+                    <P><span class="left"><img src="./img/title_style.png" alt=""></span> 
+                        51Testing从不招“兼职讲师”
+                        <span class="right" style="margin-left:-0.2rem;"><img src="./img/title_style.png" alt=""></span> 
+                    </P>
+                </div>
+                <div class="small_title">
+                    <p>企业级内训资深讲师+骨灰级教研团队</p>
+                </div>
+                <div class="teachers">
+                        <div class="swiper-container_teacher w">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="tech1">
+                                            <img src="./img/tea1.png" alt="">
+                                            <div class="name"><p>周老师 教学总监</p></div>
+                                            <div class="introduction">北京邮电大学通信<br>工程硕士，12年软<br>件测试从业经验,<br>CSTQB注册讲师</div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tech1">
+                                            <img src="./img/tea2.png" alt="">
+                                            <div class="name"><p>胡老师 资深讲师</p></div>
+                                            <div class="introduction">曾任职东南融通等<br>公司。多年测试经<br>理经验，擅长网络<br>通信和电商行业</div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                            <div class="tech1">
+                                                <img src="./img/tea3.png" alt="">
+                                                <div class="name"><p>张老师 资深讲师</p></div>
+                                                <div class="introduction">河南大学计算机硕<br>士，精通自动化测<br>试以及Linux等系<br>统</div>
+                                            </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                            <div class="tech1">
+                                                <img src="./img/tea4.png" alt="">
+                                                <div class="name"><p>宋老师 资深讲师</p></div>
+                                                <div class="introduction">7年软件测试从业经验，擅长需求分析及用例设计，曾参与中国移动等项目。</div>
+                                            </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                            <div class="tech1">
+                                                <img src="./img/tea6.png" alt="">
+                                                <div class="name"><p>陆老师 资深讲师</p></div>
+                                                <div class="introduction">曾为亚信联创上海分公司测试负责人，ISO9000内审员，获IPMP C级证书。</div>
+                                            </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                            <div class="tech1">
+                                                <img src="./img/tea5.png" alt="">
+                                                <div class="name"><p>史老师 资深讲师</p></div>
+                                                <div class="introduction">9年软件测试从业经验，性能测试专家，曾在海同科技等担任测试主管。</div>
+                                            </div>
+                                    </div>
+                                </div>
+                                
+                        </div>
+                </div> 
+            </div> 
+            <div class="p8">
+                <div class="title">
+                        <P><span class="left"><img src="./img/title_style.png" alt=""></span> 
+                            教学项目+案例项目+真实企业项目
+                            <span class="right"><img src="./img/title_style.png" alt=""></span> 
+                        </P>
+                </div> 
+                <div class="small_title"><p>3倍力度实战，“真刀真枪”演练</p></div>   
+                
+                <div class="lunbo">
+                    <div class="swiper-container_p8">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./img/p9_ex1.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/p9_ex2.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/p9_ex3.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/p9_ex4.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/p9_ex5.png" alt=""></div>
+                        </div>
+                    </div>	
+                </div>
+            </div>
+            <div class="p9">
+                <div class="title">
+                    <P><span class="left"><img src="./img/title_style.png" alt=""></span> 
+                        报名立享#终身职业护航#
+                        <span class="right"><img src="./img/title_style.png" alt=""></span> 
+                    </P>
+                </div> 
+                <div class="small_title"><p>技能学习+职业规划+入职护航+铁头推荐</p></div>  
+                <div class="content w">
+                    <div class="top">
+                        <div class="left">
+                            <div class="name"><p>终身技能学习</p></div>
+                            <div class="label"><p>一次投入 终身免费</p></div>
+                            <div class="content_c">把最前沿、最热门的新技术<br>以最快的速度传递给新、老<br>学员</div>
+                        </div>
+                        <div class="right">
+                            <div class="name"><p>职业规划测试</p></div>
+                            <div class="label"><p>一次测试 终身受用</p></div>
+                            <div class="content_c">对学员进行多方面职业素<br>质测试，并针对测试结果<br>给予指导</div>
+                        </div>
+                    </div>
+                    <div class="bot">
+                        <div class="left">
+                                <div class="name"><p>入职护航服务</p></div>
+                                <div class="label"><p>&nbsp一位学员两大“保镖”</p></div>
+                                <div class="content_c">为学员量身定制专属的技<br>术指导老师和就业指导老<br>师各一名</div>
+                            </div>
+                        <div class="right">
+                            <div class="name"><p>终身猫头推荐</p></div>
+                            <div class="label"><p>一次服务 多个机会</p></div>
+                            <div class="content_c">帮助学员获得更优的工作机<br>会，轻松入职国内外的知名<br>企业</div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="zhengshu">
+                    <div class="two w">
+                        <p class="title_t">国际权威认可+海外就业机遇</p>
+                        <p class="title_tt">携手ISTQB推出软件测试资质认证</p>
+                        <div class="context">
+                                <div class="certif">
+                                        <img src="./img/p11_1.png" alt="">
+                                </div>
+                            <div class="left">
+                                <ul>
+                                    <li><span class="icon"><img src="./img/li.jpg" alt=""></span> 
+                                        <p>ISTQB是软件测试资质认证权威机构，</p>
+                                        <p class="a" style="margin-left:0.25rem">51Testing是其大中华区指定授权合作伙伴</p>
+                                    </li>
+                                    <li><span class="icon"><img src="./img/li.jpg" alt=""></span> 
+                                        <p>截止2018年，全球仅有80万人持有</p>
+                                        <p style="margin-left:0.25rem">ISTQB认证，每季度仅颁发2万张</p>
+                                    </li>
+                                    <li><span class="icon"><img src="./img/li.jpg" alt=""></span> 
+                                        <p>100多个国家及地区共同承认，HP、</p>
+                                        <p style="margin-left:0.25rem">IBM等外企外企高度认可，轻松获得海外</p>
+                                        <p style="margin-left:0.25rem">工作</p>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="clickA"><p><a href="baidu.com">点击更多职业详情</p></a> </div>              
+                    </div>
+                </div>
+            </div>
+
+            <div class="p10">
+                <div class="title">
+                        <P><span class="left"><img src="./img/title_style.png" alt=""></span> 
+                            教学项目+案例项目+真实企业项目
+                            <span class="right"><img src="./img/title_style.png" alt=""></span> 
+                        </P>
+                </div> 
+                <div class="small_title"><p>3倍力度实战，“真刀真枪”演练</p></div> 
+                <div class="image">
+                    <img src="./img/p12_c.png" alt="">
+                </div> 
+            </div>
+            <div class="p11">
+                <div class="title">
+                    <P><span class="left"><img src="./img/title_style.png" alt=""></span> 
+                        追随他们的脚步，你会飞得更高
+                        <span class="right"><img src="./img/title_style.png" alt=""></span> 
+                    </P>
+                </div> 
+                <div class="small_title"><p>师兄师姐遍布各行各业</p></div>  
+                <div class="students">
+                    <div class="swiper-container_student w">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="ppl">
+                                    <img src="./img/p13_1.png" alt="">
+                                    <div class="name"><p>成都121期学员</p></div>
+                                    <div class="introduction">就职：中国航信重庆研发中心</div>
+                                    <div class="salary">薪资：12000元/月</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ppl">
+                                    <img src="./img/p13_2.png" alt="">
+                                    <div class="name"><p>成都121期学员</p></div>
+                                    <div class="introduction">就职：中国航信重庆研发中心</div>
+                                    <div class="salary">薪资：12000元/月</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                    <div class="ppl">
+                                        <img src="./img/p13_1.png" alt="">
+                                        <div class="name"><p>成都121期学员</p></div>
+                                        <div class="introduction">就职：中国航信重庆研发中心</div>
+                                        <div class="salary">薪资：12000元/月</div>
+                                    </div>
+                            </div>
+                            <div class="swiper-slide">
+                                    <div class="ppl">
+                                        <img src="./img/p13_2.png" alt="">
+                                        <div class="name"><p>成都121期学员</p></div>
+                                        <div class="introduction">就职：中国航信重庆研发中心</div>
+                                        <div class="salary">薪资：12000元/月</div>
+                                    </div>
+                            </div>
+                        
+                        </div>
+                        
+                    </div>
+                </div> 
+            </div>
+            <div class="p12">
+                <div class="title">
+                        <P><span class="left"><img src="./img/title_style.png" alt=""></span> 
+                            51Testing邀你挑战年薪20万
+                            <span class="right"><img src="./img/title_style.png" alt=""></span> 
+                        </P>
+                    </div>
+                <div class="small_title">
+                        <p>企业级内训资深讲师+骨灰级教研团队</p>
+                </div>
+                <div class="a">
+                    <img src="./img/add1.png" alt="">
+                    <div class="btn">
+                        <div class="click"><p><a href="www.baidu.com">点击报名</a></p></div>
+                        <div class="click"><p><a href="www.baidu.com">点击报名</a></p></div>
+                        <div class="click"><p><a href="www.baidu.com">点击报名</a></p></div>
+                        <div class="click"><p><a href="www.baidu.com">点击报名</a></p></div>    
+                        <div class="click"><p><a href="www.baidu.com">点击报名</a></p></div>
+                    </div>
+                </div>
+                <div class="a">
+                    <img src="./img/add2.png" alt="">
+                    <div class="btn">
+                        <div class="click"><p><a href="www.baidu.com">点击报名</a></p></div>
+                        <div class="click"><p><a href="www.baidu.com">点击报名</a></p></div>
+                        <div class="click"><p><a href="www.baidu.com">点击报名</a></p></div>
+                        <div class="click"><p><a href="www.baidu.com">点击报名</a></p></div>    
+                        <div class="click"><p><a href="www.baidu.com">点击报名</a></p></div>
+                    </div>
+                </div>
+                <div class="a">
+                    <img src="./img/add3.png" alt="">
+                    <div class="btn">
+                        <div class="click"><p><a href="www.baidu.com">点击报名</a></p></div>
+                        <div class="click"><p><a href="www.baidu.com">点击报名</a></p></div>
+                        <div class="click"><p><a href="www.baidu.com">点击报名</a></p></div>
+                        <div class="click"><p><a href="www.baidu.com">点击报名</a></p></div>    
+                        <div class="click"><p><a href="www.baidu.com">点击报名</a></p></div>
+                    </div>
+                </div>
+                <div class="bot_btn">
+                    <p><a href="www.baidu.com">查询更多就近城市</a></p>
+                </div> 
+                
+            </div>        
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+<script type="text/javascript" src="./swip.js"></script>	
+</html>

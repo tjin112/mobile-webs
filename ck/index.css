@@ -1,0 +1,561 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'SourceHanSansCN';
+    
+	
+  }
+  /* .main{
+    height:40rem;
+    
+} */
+
+
+.w{
+    width:10rem;
+    margin:0 auto;
+  }
+
+  .header .header_bg{
+    background: url('./img/banner_bg.jpg') no-repeat center center;
+    background-size: 100% 100%;
+    height: 6.75rem;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 1.4rem;
+}
+
+.header .banner img{
+    width: 5.97rem;
+    height: 3.87rem;
+}
+
+.mid{
+    /* background:url('./img/p1_bg.jpg') no-repeat center center;
+    background-size:100% 100%;
+    height: 7.5rem; */
+}
+.p1{
+    background:url('./img/p1_bg.jpg') no-repeat center center;
+    background-size:100% 100%;
+    height: 10.23rem;
+    text-align: center;
+}
+
+.p1 .title{
+    color: #ffffff;
+    font-size: 0.32rem;
+    font-weight: bold;
+    padding-top: 0.2rem;
+}
+.p1 .title .right{
+    margin-left: -0.2rem;
+}
+
+.p6 .title span img,
+.p4 .title span img,
+.p3 .title span img,
+.p2 .title span img,
+.p1 .title span img{
+    width: 0.35rem;
+    height: 0.31rem;
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+}
+.pic .one {
+    width: 6.91rem;
+    height: 4.61rem;
+    margin-top: 0.3rem;
+}
+.pic .two {
+    width: 6.91rem;
+    height: 4.61rem;
+    margin-top: 0.2rem;
+}
+
+
+
+.pic .one img{
+    width: 6.91rem;
+    height: 4.61rem;
+}
+
+.pic .two img{
+    width: 6.95rem;
+    height: 4.09rem;
+}
+
+.green{
+    background: #11ada8;
+    height: 53rem;
+}
+.p2{
+    margin-top: -0.01rem;
+}
+
+
+.p2 .title .p2_title{
+    color: #ffffff;
+    font-size: 0.32rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.p2 .content{
+    background: url("./img/p2_bg.png") no-repeat center center;
+    background-size: 100% 100%;
+    height: 4.27rem;  
+    margin-top: 0.3rem;  
+    
+}
+.p2 .content .content_right img,
+.p2 .content .content_left img{
+    width: 1.58rem;
+    height: 0.36rem;
+}
+
+.p2 .content .content_left .text{
+    
+    color: #048d88;
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+    letter-spacing: 0.05rem;
+}
+.p2 .content .content_right .text{
+    color: #88fffb;
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+    letter-spacing: 0.07rem;
+}
+
+
+.p2 .content .content_left{
+    float: left;
+    margin-left: 1.2rem;
+}
+.p2 .content .content_right{
+    float: left;
+    margin-top: -0.2rem;
+    margin-left: 0.5rem;
+    
+}
+
+.p3 .p3_title{
+    color: #ffffff;
+    font-size: 0.32rem;
+    text-align: center;   
+    margin-top: 0.2rem;
+    font-weight: bold;
+}
+
+.p3 .title .children{
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.2rem;
+    margin-top: 0.1rem;
+}
+.p3 .salary{
+    text-align: center;
+    padding-top: 0.3rem;
+}
+.p4 .why,
+.p3 .pic{
+    height: 1.53rem;
+    margin-top: -0.2rem;
+    background: url('./img/p3+p4_li_bg.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+.p3 .salary img{
+    width: 6.4rem;
+    height: 1.23rem;
+    margin-top: 0.15rem;
+    /* border-style: solid;
+    border-color: #11ada8;
+    border-radius: 0.1rem; */
+}
+
+
+.p4 .p4_title{
+    color: #ffffff;
+    font-size: 0.32rem;
+    text-align: center;   
+    margin-top: 0.2rem;
+    font-weight: bold;  
+}
+.p4 .context{
+    margin-top: 0.3rem;
+}
+.p4 .context .why{
+    /* text-align: center; */
+    padding-left: 0.3rem;
+    padding-top: 0.35rem;
+    margin-top: -0.1rem;
+}
+.p4 .context .why .left{
+    float: left;
+}
+.p4 .context .why .left .imageA{
+    background: url('./img/p4_i_1.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 0.56rem;
+    width: 1rem;
+} 
+
+
+.p4 .context .why .left .label p{
+    font-size: 0.22rem;
+    color: #11ada8;
+    font-weight: bold;
+    margin-left: 0.05rem;
+
+}
+.p4 .context .why .right{
+    float: left;
+    width: 6rem;
+}
+.p4 .context .why .right p{
+    color: #696969;
+    font-size: 0.2rem;
+    margin-left: 0.2rem;
+    letter-spacing: 0.03rem;
+}
+
+.p4 .context .why .left .imageB{
+    background: url('./img/p4_i_2.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 0.56rem;
+    width: 0.98rem;
+} 
+
+.p4 .context .why .left .imageC{
+    background: url('./img/p4_i_3.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 0.56rem;
+    width: 0.98rem;
+} 
+
+.p4 .context .why .left .imageD{
+    background: url('./img/p4_i_4.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 0.56rem;
+    width: 0.98rem;
+} 
+
+
+.p4 .context .why .left .imageE{
+    background: url('./img/p4_i_5.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 0.56rem;
+    width: 0.98rem;
+} 
+
+
+.p5{
+    background: url('./img/p5-bg.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 8.23rem;
+    margin-top: 0.2rem;
+    padding-top: 0.6rem;
+    
+}
+.p5 .title .a{
+    font-size: 0.32rem;
+    color: #11ada8;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 0.2rem;
+}
+
+.p5 .title .b{
+    font-size: 0.26rem;
+    color: #11ada8;
+    text-align: center;
+    padding-left: 0.2rem;
+}
+.p5 .stuff{
+    margin-top: 1.5rem;
+    width: 4rem;
+    margin-left: 1.8rem;
+}
+.p5 .stuff p{
+    font-size: 0.2rem;
+    color: #21b9b4;
+    text-align: center;
+    /* border-style: dashed;
+    border-bottom-style: dashed ; */
+    border:0;
+    border-bottom:0.01rem dashed #d4eeed;
+    line-height: 0.4rem;
+}
+
+.p6 .title{
+    color: #ffffff;
+    font-size: 0.32rem;
+    padding-top: 0.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.p6 .teachers{
+    padding-left: 0.3rem;
+    width: 100%;
+}
+.p6 .teachers .a{
+    background: url('./img/p6_li_bg_l.png') no-repeat center center;
+    height: 2.28rem;
+    width: 6.91rem;
+    background-size: 100% 100%;
+    padding-left: 0.35rem;
+    padding-top: 0.4rem;
+    
+}
+
+.p6 .teachers .a .left{
+    float: left;
+    
+}
+
+.p6 .teachers .a .left .imageA{
+    background: url('./img/tea1.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 1.01rem;
+    width: 1.01rem;
+}
+.p6 .teachers .a .left .label p{
+    font-size: 0.22rem;
+    color: #3e8339;
+    font-weight: bold;
+    margin-left: 0.05rem;
+    text-align: center;
+}
+
+.p6 .teachers .a .right{
+    float: left;
+    width: 5rem;
+    margin-top: 0.05rem;
+    margin-left: 0.35rem;
+}
+.p6 .teachers .a .right p{
+    font-size: 0.2rem;
+    color: #0c9f9a;
+    letter-spacing: 0.01rem;
+    line-height: 0.27rem;
+}
+
+.p6 .teachers .a .left .imageB{
+    background: url('./img/tea3.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 1.01rem;
+    width: 1.01rem;
+}
+
+.p6 .teachers .a .left .imageE{
+    background: url('./img/tea5.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 1.01rem;
+    width: 1.01rem;
+}
+
+
+/* =============================== */
+.p6 .teachers .b{
+    background: url('./img/p6_li_bg_r.png') no-repeat center center;
+    height: 2.28rem;
+    width: 6.91rem;
+    background-size: 100% 100%;
+    padding-right: 0.35rem;
+    padding-top: 0.4rem;
+    
+}
+
+.p6 .teachers .b .left{
+    float: right;
+    
+}
+
+.p6 .teachers .b .left .imageC{
+    background: url('./img/tea2.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 1.01rem;
+    width: 1.01rem;
+}
+.p6 .teachers .b .left .label p{
+    font-size: 0.22rem;
+    color: #3e8339;
+    font-weight: bold;
+    margin-right: 0.05rem;
+    text-align: center;
+}
+
+.p6 .teachers .b .right{
+    float: right;
+    width: 5rem;
+    margin-top: 0.14rem;
+    margin-right: 0.25rem;
+}
+.p6 .teachers .b .right p{
+    font-size: 0.2rem;
+    color: #0c9f9a;
+    letter-spacing: 0.01rem;
+    line-height: 0.27rem;
+}
+
+.p6 .teachers .b .left .imageB{
+    background: url('./img/tea3.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 1.01rem;
+    width: 1.01rem;
+}
+
+.p6 .teachers .b .left .imageD{
+    background: url('./img/tea4.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 1.01rem;
+    width: 1.01rem;
+}
+
+.p6 .teachers .b .left .imageF{
+    background: url('./img/tea6.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 1.01rem;
+    width: 1.01rem;
+}
+
+.p6 .btn{
+    text-align: center;
+    color: #517f29;
+    width: 3.75rem;
+    height: 0.46rem;
+    font-size: 0.26rem;
+    background: url('./img/p6_btn.png') no-repeat center center;
+    background-size: 100% 100%;
+    margin-top: 0.3rem;
+    line-height: 0.4rem;
+    
+}
+.p6 a{
+    text-decoration: none;
+}
+.p7 .title{
+    color: #ffffff;
+    font-size: 0.32rem;
+    padding-top: 0.3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.p7 .first{
+    height: 2.22rem;
+    padding-left: 0.4rem;
+}
+.p7 .post{
+    float: left;
+    background: url('./img/p7_li_bg.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 2.22rem;
+    width: 2.23rem;   
+    padding-top: 0.54rem;
+    margin-top: 0.2rem;
+    
+}
+.p7 .post .small_title{
+    font-size: 0.22rem;
+    color: #02a29d;
+    margin-left: 0.55rem;
+}
+
+.p7 .post .small_content{
+    font-size: 0.2rem;
+    color: #565656;
+    text-align: center;
+    margin-top: 0.25rem;
+    line-height: 0.3rem;
+}
+.p8{
+    height: 4rem;
+    padding-left: 0.5rem;
+}
+.p8 .title{
+    color: #ffffff;
+    font-size: 0.32rem;
+    padding-top: 0.7rem;
+    text-align: center;
+    font-weight: bold;
+    margin-left: -0.5rem;
+}
+.p8 .label_8 .item{
+    background: url('./img/p8_li_bg.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 3.02rem;
+    width: 2.5rem;
+    padding-top: 0.14rem;
+    float: left;
+    margin-left: -0.21rem;
+    margin-top: 0.2rem;
+}
+.p8 .label_8 .item .iconA{
+    background: url('./img/p8_li_1.png')no-repeat center center;
+    background-size: 100% 100%;
+    height: 1.15rem;
+    width: 1.15rem;
+    margin-left: 0.67rem;
+    
+    
+}
+.p8 .label_8 .item .iconB{
+    background: url('./img/p8_li_2.png')no-repeat center center;
+    background-size: 100% 100%;
+    height: 1.15rem;
+    width: 1.15rem;
+    margin-left: 0.7rem;
+    
+    
+}
+.p8 .label_8 .item .iconC{
+    background: url('./img/p8_li_3.png')no-repeat center center;
+    background-size: 100% 100%;
+    height: 1.15rem;
+    width: 1.15rem;
+    margin-left: 0.7rem;
+    
+    
+}
+
+.p8 .label_8 .item .text{
+    width: 1.8rem;
+    font-size: 0.2rem;
+    color: #565656;
+    margin-left: 0.35rem;
+    margin-top: 0.2rem;
+}
+
+
+
+
+
+
+
+.p9 {
+    background: url('./img/bottom_bg.jpg') no-repeat center center;
+    background-size: 100% 100%;
+    height:4.18rem;
+    text-align: center;
+    padding-top: 0.6rem;
+    line-height: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+.p9 .small{
+    font-size: 0.3rem;
+    color: #11ada8;
+    font-weight: bold;
+
+}
+.p9 .big{
+    font-size: 0.32rem;
+    color: #11ada8;
+    font-weight: bold;
+}

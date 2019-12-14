@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    font-family: 'SourceHanSansCN';
+
+    
+	
+  }
+/* .main{
+    height:40rem;
+    
+} */
+.header {
+    background: url('./img/banner_bg.jpg') no-repeat center center;
+    background-size: 100% 100%;
+    height: 13.49rem;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.header img{
+    width: 5.87rem;
+    height: 2.61rem;
+    margin-top: 0.95rem;
+}
+.header .title .lt{
+    font-size: 0.24rem;
+    color: #1e4e46;
+    text-align: left;
+    margin-left: 1.5rem;
+    margin-top: 0.4rem;
+    font-weight: bold;
+}
+.header .green,
+.header .red,
+.header .yellow,
+.header .black{
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem; 
+    float:left; 
+    margin-left: 0.8rem;
+    margin-top: 0.22rem;
+    margin-bottom: 1.1rem;
+    
+}
+.header .green{
+    background: #28c06f;
+    border-radius: 0.03rem;
+}
+.header .red{
+    background: #fe7e53;
+    border-radius: 0.03rem;
+    margin-left: 0.2rem;
+}
+.header .yellow{
+    background: #e8c908;
+    border-radius: 0.03rem;
+    margin-left: 0.2rem;
+}
+.header .black{
+    background: #8ad941;
+    border-radius: 0.03rem;
+    margin-left: 0.2rem;
+ 
+}
+
+.header .a{
+    font-size: 0.3rem;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+.header .b{
+    width: 100%;
+    font-size: 0.2rem;
+    color: #ffffff;
+    margin-left: 0.05rem;
+    text-align: center;
+}
+
+
+.header .btn a{
+    background: linear-gradient(#ed2f3c,#f85a1a);
+    font-size: 0.24rem;
+    float:right;
+    color: #ffffff;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-top: 0.05rem;
+    padding-bottom: 0.05rem;
+    border-radius: 0.1rem;
+    margin-right: 0.6rem;
+    text-decoration: none;
+}
+
+.header .table{
+    background: url('./img/p1+p4_bg.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 6.33rem;
+    width: 6.9rem;
+    clear: both;
+    margin: 0 auto;
+    padding-top: 0.1rem;
+}
+.header .table .t{
+    font-size: 0.32rem;
+    color: #fce8b1;
+    font-weight: bold;
+    padding-left: 0.3rem;
+    letter-spacing: 0.02rem;
+}
+.header .table .tt{
+    font-size: 0.24rem;
+    color: #fce8b1;
+    letter-spacing: 0.02rem;
+}
+.first{
+  height: 2.8rem;;
+}
+
+.header .table .label{
+  width: 1.6rem;
+  float: left;
+  margin-left: 0.5rem;
+  
+}
+
+.header .table .label img{
+  width: 0.55rem;
+  height: 0.59rem;
+}
+.header .table .label .small_t{
+  background: url('./img/btn.png') no-repeat center center;
+  background-size: 100% 100%;
+  width: 1.22rem;
+  height: 0.27rem;
+  font-size: 0.2rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -0.1rem;
+}
+.header .table .label .text{
+  font-size: 0.18rem;
+  color: #848484;
+  margin-top: 0.1rem;
+}
+
+.mid{
+    background: #fce8b1;
+    margin-top: -0.01rem;
+}
+.p2 .table{
+    background: url('./img/p2_bg.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 6.33rem;
+    width: 6.9rem;
+    clear: both;
+    margin: 0 auto;
+    padding-top: 0.1rem;
+}
+.p2 .table .t{
+    font-size: 0.32rem;
+    color: #fce8b1;
+    font-weight: bold;
+    
+    letter-spacing: 0.02rem;
+    text-align: center;
+}
+.p2 .table .tt{
+    font-size: 0.24rem;
+    color: #fce8b1;
+    letter-spacing: 0.02rem;
+    text-align: center;
+}
+
+.p3 .p3_title{
+    background: url('./img/p3_title.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 1rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    padding-top: 0.17rem;
+}
+
+.p3_title .title{
+    font-size: 0.32rem;
+    color: #fce8b1;
+    font-weight: bold;
+    
+    letter-spacing: 0.02rem;
+    text-align: center;   
+}
+
+
+.p3 .teachers{
+    margin-top: -0.2rem;
+  }
+  
+.p3 .teachers .tech1{
+background: url('./img/p3_li_bg.png') no-repeat center center;
+background-size: 100% 100%;
+height: 2.82rem;
+width: 2.24rem;
+padding-top: 0.4rem;
+
+
+}
+.p3{
+overflow: hidden;
+}
+.p3 .tech1{
+float:left;
+height: 3.43rem;
+width: 2.24rem;
+padding-top: 0.2rem;
+}
+.p3 .tech1 img{
+  float: left;
+height: 0.8rem;
+width: 0.8rem;
+margin-left: 0.15rem;
+}
+
+.p3 .tech1 .name{
+  float: left;
+font-size: 0.22rem;
+color: #ffa873;
+margin-top: -0.2rem;
+/* text-align: center; */
+font-weight: bold;
+margin-top: 0.1rem;
+margin-left: 0.1rem;
+}
+
+.p3 .tech1 .introduction{
+font-size: 0.22rem;
+color: #ffa873;
+margin-left: 0.25rem;
+margin-top: 0.9rem;
+clear: both;
+line-height: 0.26rem;
+}
+.p3 .teachers{
+width:6.91rem;
+height: 3.5rem;
+margin-left: 0.3rem;
+}
+/* .p3  .swiper-container_teacher{
+height: 3.5rem;
+width:100%;
+
+} */
+/* .p3 .swiper-wrapper{
+width:100%;
+} */
+
+.p4 .p4_title{
+    background: url('./img/p1+p4_bg.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 6.33rem;
+    width: 6.9rem;
+    clear: both;
+    margin: 0 auto;
+    padding-top: 0.3rem;
+}
+
+.p4_title .title{
+    font-size: 0.32rem;
+    color: #fce8b1;
+    font-weight: bold;
+    
+    letter-spacing: 0.02rem;
+    text-align: center;   
+}
+
+.p4 .first{
+  height: 2rem;;
+}
+.p4 .table{
+  margin-top: 0.7rem;
+}
+
+.p4 .table .label{
+  width: 1.65rem;
+  float: left;
+  margin-left: 0.5rem;
+  text-align: center;
+}
+
+.p4 .table .label img{
+  width: 0.59rem;
+  height: 0.59rem;
+}
+.p4 .table .label .small_t{
+  background: url('./img/btn.png') no-repeat center center;
+  background-size: 100% 100%;
+  width: 1.22rem;
+  height: 0.27rem;
+  font-size: 0.2rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -0.1rem;
+}
+.p4 .table .label .text{
+  font-size: 0.18rem;
+  color: #848484;
+  margin-top: 0.1rem;
+}
+
+.p5{
+    margin-top: 0.5rem;
+}
+.p5 .p5_title{
+    background: url('./img/p5_bg.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 4.35rem;
+    width: 6.9rem;
+    clear: both;
+    margin: 0 auto;
+    padding-top: 0.12rem;
+}
+
+.p5_title .title{
+    font-size: 0.32rem;
+    color: #fce8b1;
+    font-weight: bold;
+    
+    letter-spacing: 0.02rem;
+    text-align: center;   
+}
+
+.p5 .btn {
+    display: block;
+    width: 3.24rem;
+    height: 0.54rem;
+    background: #fd7a01;
+    color: #ffffff;
+    font-size: 0.32rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.2rem auto;
+    line-height: 0.54rem;
+    text-decoration: none;
+    border-radius: 0.08rem;
+  }
+  .p5 .a{
+    float: left;
+    margin-left: 0.39rem;
+    margin-top: 0.9rem;
+    text-align: center;
+  }
+  
+  .p5 .a img{
+    width: 1.25rem;
+    height: 1.25rem;
+    
+  }
+  .p5 .a p{
+    color: #565656;
+    font-size: 0.2rem;
+    text-align: left;
+  }
+
+  .p6{
+    margin-top: 0.4rem;
+  }
+  
+  .p6 .uu {
+    list-style: none;
+    
+  }
+  .p6 .uuu{
+    border:0.05rem solid #ffa873;
+    border-radius: 0.2rem;
+    background: #ffffff;
+    margin-top: 0.1rem;
+   
+    
+  }
+  .p6 .tab {
+      padding-bottom: 0.01rem;
+  }
+  
+  
+  .p6  .image{
+    width: 0.33rem;
+    height: 0.36rem; 
+    float: left;
+  }
+  
+  .p6 .tab  img{
+      width: 0.33rem;
+      height: 0.36rem;
+      margin-top: 0.1rem;
+      
+  }
+  .p6 .tab .title_5{
+      float:left;
+      display: inline-block;
+      line-height: 0.23rem;
+      margin-left: 0.5rem;
+      margin-top: -0.2rem;
+      width: 90%;
+    }
+  
+   
+  
+  .p6 .menu_tab {
+    margin: 10px auto;
+    width: 6.9rem;
+    height: auto;
+    border: 0rem solid #ffa873;
+    border-radius: 0.2rem;
+  }
+  .p6 label {
+    display: block;
+    color: #44805c;
+    height: 0.71rem;
+    font-size: 0.24rem;
+    padding: 0.04rem 0 0.06rem 0.25rem;
+    border:0.01rem dashed #ffffff;
+    
+    border-radius: 0.2rem;
+  }
+  .p6 label::after {
+    
+    font-size: 14px;
+    float: right;
+    margin-right: 15px;
+  }
+  .p6 label.selected::after {
+    
+  }
+  .p6  .imageA{
+    width: 0.41rem;
+    height: 0.32rem; 
+    float: left;
+  }
+  .p6 .tab_content .imageA img{
+    width: 0.41rem;
+    height: 0.32rem;
+    margin-top: 0.1rem;
+    
+  }
+  .tab_content {
+    display: none;
+    margin-left: 0.15rem;
+    font-size: 0.24rem;
+    padding-top: 0.15rem;
+    color: #949494;
+    width: 95%;
+    border-top-style: dotted;
+    border-top-width: 0.01rem;
+    border-top-color: #94dfb2;
+    margin-bottom: 0.3rem;
+  }
+  
+  .tab_content .p_c{
+    width: 6rem;
+    margin-left: 0.5rem;
+    margin-top: 0.1rem;
+    
+  }
+  
+  
+  
+  .p6 img{
+    width: 6.42rem;
+    height: 0.88rem;
+    display: block;
+    margin: 0 auto;
+    
+  }
+  
+
+  .p7{
+      background: url('./img/bottom_bg.jpg') no-repeat center center;
+      width: 100%;
+      height: 4.07rem;
+      background-size: 100% 100%;
+      text-align: center;
+      padding-top: 0.8rem;
+  }
+  .p7 img{
+      width: 5.57rem;
+      height: 1.81rem;
+      
+  }
